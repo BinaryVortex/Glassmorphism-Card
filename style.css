@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+.card {
+    width: 600px;
+    height: 330px;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur( 24px );
+    -webkit-backdrop-filter: blur( 24px );
+
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bank {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+    color: #fff;
+    font-size: 24px;
+}
+
+.number {
+    margin-top: auto;
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.owner {
+    color: #fff;
+    font-size: 16px;
+}
